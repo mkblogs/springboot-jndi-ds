@@ -21,7 +21,8 @@ In this example, read the `db.properties` file and created JNDI DataSource using
  DataSource dataSource = dsLookup.getDataSource(jndiName);
 ```
 ### application.yml
----yaml
+```yaml
 spring:
   datasource:
    jndi-name: jdbc/MysqlJNDI
+```
